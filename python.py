@@ -26,7 +26,7 @@ def main():
     obj = Abc()
     answer = obj.xyz(s)
 
-    print(f"\nLongest Valid Parentheses Length is {answer}")
+    print(f"\nThe longest Valid Parentheses Length is {answer}")
 
 
 if __name__ == "__main__":
