@@ -24,9 +24,9 @@ def main():
     s = input("Enter a string containing only '(' and ')': ").strip()
 
     obj = Abc()
-    answer = obj.xyz(s)
+    ans = obj.xyz(s)
 
-    print(f"\nThe longest Valid Parentheses Length is {answer}")
+    print(f"The longest Valid Parentheses Length is {ans}")
 
 
 if __name__ == "__main__":
