@@ -1,4 +1,4 @@
-class Abc:
+class ABC:
     def xyz(self, s: str) -> int:
         stack = [-1]
         longest = 0
@@ -23,7 +23,7 @@ def main():
 
     s = input("Enter a string containing only '(' and ')': ").strip()
 
-    obj = Abc()
+    obj = ABC()
     ans = obj.xyz(s)
 
     print(f"The longest Valid Parentheses Length is {ans}")
